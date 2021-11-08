@@ -24,13 +24,20 @@ form input[type="password"] {
     border-radius: 5px;
     height: 2rem;
     opacity: 0.5;
-    padding-left: 10px;
+    padding-left: 50px;
     outline: none;
 }
 
-.usuario::placeholder {
-    font-family: "Font Awesome 5 Free";
-    font-weight: 300;
+.inputWithIcon {
+    position: relative;
+}
+
+.inputWithIcon i {
+    position: absolute;
+    left: 60px;
+    top: 16px;
+    padding-left: 8px;
+    color: #b93665;
 }
 
 form input[type="submit"] {
