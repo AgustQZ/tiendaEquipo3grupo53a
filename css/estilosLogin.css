@@ -17,6 +17,11 @@ body {
     width: 50px;
 }
 
+
+/* .derecho {
+    padding-top: 200px;
+} */
+
 form input[type="text"],
 form input[type="password"] {
     width: 75%;
@@ -34,9 +39,8 @@ form input[type="password"] {
 
 .inputWithIcon i {
     position: absolute;
-    left: 60px;
+    left: 18%;
     top: 16px;
-    padding-left: 8px;
     color: #b93665;
 }
 
